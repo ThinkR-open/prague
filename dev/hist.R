@@ -4,6 +4,7 @@ usethis::use_build_ignore("dev/hist.R")
 usethis::use_readme_rmd()
 usethis::use_code_of_conduct()
 usethis::use_git()
+usethis::use_mit_license()
 
 usethis::use_r("add_resource")
 usethis::use_r("js")
