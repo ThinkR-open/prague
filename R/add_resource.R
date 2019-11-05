@@ -10,12 +10,12 @@
 #'
 add_resource_path <- function(
   prefix,
-  directory_path,
+  directoryPath,
   warn_empty = FALSE
 ){
 
   list_f <- list.files(
-    path = directory_path
+    path = directoryPath
   )
 
   if( length(list_f) == 0 & warn_empty ){
@@ -23,7 +23,7 @@ add_resource_path <- function(
   } else {
     addResourcePath(
       prefix,
-      directory_path
+      directoryPath
     )
   }
 }
