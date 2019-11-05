@@ -1,0 +1,36 @@
+Package: prague
+Title: Where 'golems' Come to Life
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Colin",
+             family = "Fay",
+             role = c("cre", "aut"),
+             email = "contact@colinfay.me",
+             comment = c(ORCID = "0000-0001-7343-1846")),
+      person(given = "Vincent",
+             family = "Guyader",
+             role = c("aut"),
+             email = "vincent@thinkr.fr",
+             comment = c(ORCID = "0000-0003-0671-9270")),
+      person(given = "Sébastien",
+             family = "Rochette",
+             role = "aut",
+             email = "sebastien@thinkr.fr",
+             comment = c(ORCID = "0000-0002-1565-9313")),
+      person(given = "Cervan",
+             family = "Girard",
+             role = "aut",
+             email = "cervan@thinkr.fr",
+             comment = c(ORCID = "0000-0002-4816-4624")),
+      person(given = "ThinkR",
+             role = "cph"))  
+Description: The goal of 'prague' is to provide the production-oriented functions for a 'golem' app.
+    This way, when you deploy an app built with 'golem', you'll only have to install one dependency
+    for 'prague', not the ones for 'golem' (which are more numerous). 'prague' only 
+    has one direct dependencies: `{shiny}`, making it lightweight to deploy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny
+RoxygenNote: 6.1.1
