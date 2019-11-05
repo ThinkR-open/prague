@@ -27,7 +27,7 @@ Authors@R:
 Description: The goal of 'prague' is to provide the production-oriented functions for a 'golem' app.
     This way, when you deploy an app built with 'golem', you'll only have to install one dependency
     for 'prague', not the ones for 'golem' (which are more numerous). 'prague' only 
-    has one direct dependencies: `{shiny}`, making it lightweight to deploy.
+    has one direct dependencies: 'shiny', making applications more lightweight and easier to deploy.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
